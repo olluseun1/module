@@ -8,12 +8,12 @@ resource "aws_instance" "a_machine" {
   }
 }
 
-variable machine_name {
-    default = "Name me please"
-}
+# variable machine_name {
+#     default = "Name me please"
+# }
 
-variable "machine_key" {
-    default = "newkey"
+# variable "machine_key" {
+#     default = "newkey"
   
-}
+# }
   
