@@ -4,6 +4,11 @@ resource "aws_instance" "a_machine" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "MAchine for Sales"
+    Name = var.machine_name
   }
 }
+
+variable machine_name {
+    default = "Name me please"
+}
+  
